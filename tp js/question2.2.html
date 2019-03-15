@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<script type="text/javascript">
+		function afficheInformation(txt1){
+			var info = document.getElementById("txt1" );
+			info.innerHtml=('Appelez-nous au 06060606 pour toutes vos demande');
+				
+		}
+		function afficheInformation(){
+			var info =document.getElementById("renseignement");
+			info.innerHtml="&nbsp;";
+		}
+		
+
+		function affichInformation(txt2){
+			var info = document.getElementById("txt2");
+			info.innerHtml=('Envoyez-nous un courriel à contact[at]sfcv.com, nous vous repondrons immédiatement')
+
+		}
+
+		function afficheInformation(){
+			var info =document.getElementById("renseignement");
+			info.innerHtml="&nbsp;";
+		}
+		
+	</script>
+	<title>exercice 2.2</title>
+</head>
+<body>
+	<header>
+		<nav >
+			<ul>
+				<li><a href="">Question1.1 </a></li>
+				<li><a href="">Question1.2 </a></li>
+				<li><a href="">Question1.3 </a></li>
+				<li><a href="">Question1.4 </a></li>
+				<li><a href="">Question1.5 </a></li>
+				<li><a href="">Question2.1 </a></li>
+				<li><a href="">Question2.2 </a></li>
+				<li><a href="">Question2.3 </a></li>
+				<li><a href="">Question3.1 </a></li>
+				<li><a href="">Question3.2 </a></li>
+			</ul>
+		</nav>
+	</header>
+<img src="image/css.jpg" id="txt1" onmouseover="afficheInformation()"; onmouseout="afficheInformation()">
+<img src="image/js.jpg" id="txt2" onmouseover="afficheInformation()"; onmouseout="afficheInformation()">
+<div id="renseignement" style="height: 40px;">
+	<p>&nbsp;</p>
+	
+</div>
+</body>
+</html>
