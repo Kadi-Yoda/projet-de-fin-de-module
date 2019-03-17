@@ -1,0 +1,66 @@
+html{
+	margin-top: 20px;
+	height: 100%;
+	width: 100%;
+	background-size: cover; 
+	font-family: sans-serif;
+}
+
+#for{
+	position:relative;
+	width: 600px;
+	height: 600px;	
+	margin: 0 auto;
+	box-sizing:border-box;
+	background: rgba(0,0,0,.6);
+
+
+}
+.out{
+	position: relative;
+	top: 50px;
+}
+#for input{
+ 	position: relative;
+	height: 50px;
+	
+
+}
+#for input[type="text"]
+{
+	left: 90px;
+	outline: none;
+	height: 20px;
+	color: #000;
+}
+#for input[type="checkbox"]{
+	position: relative;
+	bottom: -20px;
+}
+
+label{
+	position: relative;
+	left: 15px;
+}
+#for textarea[type="text"]{
+	position: relative;
+	left: 60px;
+	height: 80px;
+	width: 200px;
+}
+#for input[type=submit]{
+	position: relative;
+	border: none;
+	height: 40px;
+	width: 100px;
+	background-color:#fff;
+	font-family: comics sans ms;
+	font-size: 20px;
+	color: blue;
+	margin-left: 190px;
+
+}
+#for select{
+	position: relative;
+	left: 50px;
+}
