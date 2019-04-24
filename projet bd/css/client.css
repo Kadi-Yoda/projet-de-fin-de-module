@@ -1,0 +1,19 @@
+body{
+	background-image: url(../image/background.jpg);
+	background-size: 1200px;
+	background-repeat: no-repeat;
+
+}
+.btn{
+	position: relative;
+	left: 65%;
+	top:10px;
+}
+.navbar{
+	opacity:0.6;
+
+}
+.titre1{
+	font-size: 15px;
+	font-family: 
+}
