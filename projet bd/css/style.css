@@ -113,16 +113,17 @@ h2{
 	position: relative;
 	bottom: 8px;
 	height: 50px;
-	width:100px;
-	background-color: #fff;
+	width: 300px;
+
 }
 #equipe h1{
 	position: relative;
-	margin: 50px;
+	bottom: 50px;
+	
 }
 #equipe{
 	position: relative;
-	bottom: 150px;
+	bottom: 100px;
 }
 .form-group
 {
